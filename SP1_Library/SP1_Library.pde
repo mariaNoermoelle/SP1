@@ -1,10 +1,11 @@
 ProgressBar pagesRead;
-
+float totalPageNr = 300;
+float totalPagesRead = 100;
 void setup()
 {
   size(200,150);
   background(255);
-  pagesRead = new ProgressBar(300,300);
+  pagesRead = new ProgressBar(totalPagesRead,totalPageNr);
   pagesRead.display();
   pagesRead.load();
   
