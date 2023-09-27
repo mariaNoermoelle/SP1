@@ -1,11 +1,15 @@
-public class BookTitle
+//the book information class
+
+public class BookInfo
 {
   String title;
+  String author;
   int numberOfPages;
   
-  BookTitle (String tempTitle, int tempPagesNumber)
+  BookInfo (String tempTitle, String tempAuthor, int tempPagesNumber) //Constructor
   {
-    this.title=tempTitle;
-    this.numberOfPages=tempPagesNumber;
+    title=tempTitle;
+    author=tempAuthor;
+    numberOfPages=tempPagesNumber;
   }
 }
