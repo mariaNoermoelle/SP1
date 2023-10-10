@@ -16,7 +16,7 @@ class ProgressBar
   {
     rectMode(CENTER);
     fill(0);
-    rect(width/2, height/2, 150, 30, 25);
+    rect(width/2, height/2, 100, 30, 25);
   }
   
   void load()  //Method

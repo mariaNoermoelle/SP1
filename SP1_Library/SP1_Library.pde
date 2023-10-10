@@ -4,8 +4,8 @@
 //and whether it's a short, medium or long book you're reading.
 
 ProgressBar pagesRead;
-float totalPageNr = 384; //Type number of pages in the book(Harry Potter for instance).
-float totalPagesRead = 100; //Type how many pages you've read so far.
+float totalPageNr = 300; //Type number of pages in the book(Harry Potter for instance).
+float totalPagesRead = 300; //Type how many pages you've read so far.
 
 void setup()
 {
